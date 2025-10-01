@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana del Piquemacho - La Paz 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Semana del Piquemacho</h1>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#cronograma">Cronograma</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-img left">
+                <img src="imagenes/piquee.jpg" alt="Decoración izquierda">
+            </div>
+            <div class="hero-content">
+                <h2>Semana del Piquemacho – La Paz 2025</h2>
+                <p>Celebra la tradición, el sabor y la cultura paceña</p>
+                <a href="#cronograma" class="btn">Ver Actividades</a>
+            </div>
+            <div class="hero-img right">
+                <img src="imagenes/piquemacho.jpg" alt="Decoración derecha">
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia -->
+    <section id="historia" class="section">
+        <h2>Historia del Piquemacho</h2>
+        <p>El piquemacho es un plato tradicional que combina carne, papa frita y un toque picante de locoto. 
+        Aunque su origen está en Cochabamba, La Paz lo celebra con pasión en una semana dedicada a la gastronomía y cultura.</p>
+        <img src="imagenes/tradicional.jpg" alt="Piquemacho tradicional">
+    </section>
+
+    <!-- Características -->
+    <section id="caracteristicas" class="section">
+        <h2>Características del Plato</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="imagenes/carne.png" alt="Carne">
+                <p>🥩 Carne jugosa</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/papas.png" alt="Papas">
+                <p>🍟 Papas fritas</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/locoto.jpg" alt="Locoto">
+                <p>🌶️ Locoto picante</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/cebolla.png" alt="Cebolla y tomate">
+                <p>🧅 Cebolla y tomate</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/Captura de pantalla 2025-10-01 124042.png" alt="Huevo duro">
+                <p>🥚 Huevo duro</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/Captura de pantalla 2025-10-01 124033.png" alt="Chorizo">
+                <p>🌭 Chorizo / Salchicha</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cronograma -->
+    <section id="cronograma" class="section">
+        <h2>Cronograma de Actividades</h2>
+        <table>
+            <tr><th>Día</th><th>Actividad</th></tr>
+            <tr><td>Lunes</td><td>Inauguración y feria gastronómica</td></tr>
+            <tr><td>Martes</td><td>Concurso de piquemacho tradicional</td></tr>
+            <tr><td>Miércoles</td><td>Exhibición de piquemachos innovadores</td></tr>
+            <tr><td>Jueves</td><td>Charlas sobre gastronomía paceña</td></tr>
+            <tr><td>Viernes</td><td>Concurso interdepartamental</td></tr>
+            <tr><td>Sábado</td><td>Música, danza y degustación</td></tr>
+            <tr><td>Domingo</td><td>Clausura y premiación</td></tr>
+        </table>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="section galeria">
+        <h2>Galería</h2>
+        <div class="imagenes">
+            <img src="imagenes/pique22.png" alt="Plato de piquemacho">
+            <img src="imagenes/piquemacho.jpg" alt="Degustación">
+            <img src="imagenes/pique22.png" alt="Variación de piquemacho">
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section id="formulario" class="section">
+        <h2>Formulario de Participación</h2>
+        <form>
+            <label for="atencion">¿Qué le llamó la atención?</label>
+            <textarea id="atencion" name="atencion" rows="3"></textarea>
+
+            <label for="asistira">¿Asistirá al evento?</label>
+            <select id="asistira" name="asistira">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="departamento">¿De qué departamento es?</label>
+            <select id="departamento" name="departamento">
+                <option value="">Seleccione...</option>
+                <option>La Paz</option>
+                <option>Cochabamba</option>
+                <option>Santa Cruz</option>
+                <option>Oruro</option>
+                <option>Potosí</option>
+                <option>Chuquisaca</option>
+                <option>Tarija</option>
+                <option>Beni</option>
+                <option>Pando</option>
+            </select>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Semana del Piquemacho - La Paz | Todos los derechos reservados</p>
+        <nav>
+            <a href="#inicio">Inicio</a> |
+            <a href="#historia">Historia</a> |
+            <a href="#cronograma">Actividades</a> |
+            <a href="#formulario">Formulario</a>
+        </nav>
+    </footer>
+</body>
+</html>
